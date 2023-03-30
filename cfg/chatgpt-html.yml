@@ -1,0 +1,14 @@
+---
+http_config_file: "../../../../cfg/config.json"
+chat_html: "../../../../cfg/chat.html"
+chat_http_path: "/chat"
+get_http_path: "/get"
+thread_num: 2
+openai_url: "https://api.openai.com"
+openai_path: "/v1/chat/completions"
+custom_header: {}
+timeout: 60
+model: "gpt-3.5-turbo"
+http_client_count: 2
+validate_cert: false
+use_old_tls: false
